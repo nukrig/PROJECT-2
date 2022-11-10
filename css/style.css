@@ -1,6 +1,101 @@
-.google{
-    font-weight: bold;
-    font-size: 50px;
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../images/background.png); 
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar{
+    height: 12%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display:inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    width: 50%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+button{
+    width: 180px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    padding: 20px;
+    border: 0;
+    border-radius: 50px;
+    margin-top: 40px;
+
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+}
+.card:nth-child(1){
+    background-image: url(../images/pic-1.png);
+}
+.card:nth-child(2){
+    background-image: url(../images/pic-2.png);
+}
+.card:nth-child(3){
+    background-image: url(../images/pic-3.png);
+}
+.card:nth-child(4){
+    background-image: url(../images/pic-4.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-weight: bold;
+}
+.card p{
+    margin-top: 30px;
+    text-shadow: 5px 5px 10px black;
 }
